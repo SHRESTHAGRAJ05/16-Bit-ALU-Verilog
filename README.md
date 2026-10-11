@@ -1,18 +1,9 @@
-# 8-Bit-ALU-Verilog
-Introduction
-An Arithmetic Logic Unit (ALU) is one of the most important components of a digital processor. It performs arithmetic and logical operations on binary data and is the computational core of microprocessors, microcontrollers, and digital signal processors.
-In this project, an 8-bit ALU is designed and implemented using Verilog Hardware Description Language (HDL). The ALU accepts two 8-bit inputs and a 4-bit control signal (opcode) to perform different arithmetic and logical operations.
+# 16-Bit-ALU-Verilog
+An Arithmetic Logic Unit (ALU) is the computational core of a processor responsible for performing arithmetic and logical operations. In modern processors, ALUs are designed to handle larger data widths such as 16-bit, 32-bit, or 64-bit to improve computational capability.
+This project presents the design and implementation of a 16-bit ALU using Verilog HDL. The ALU accepts two 16-bit operands and a 4-bit opcode to perform various arithmetic, logical, and shift operations. It also generates status flags such as Carry, Zero, Sign, and Overflow.
 Objectives
-- Design an 8-bit ALU using Verilog HDL.
-- Perform arithmetic operations such as addition and subtraction.
-- Perform logical operations such as AND, OR, XOR, and NOT.
-- Generate status flags such as Carry and Zero.
-- Verify the functionality through simulation.
-Features
-- 8-bit data processing
-- Multiple arithmetic operations
-- Multiple logical operations
-- Carry flag generation
-- Zero flag generation
-- Combinational circuit implementation
-- 
+- Design a 16-bit ALU using Verilog HDL.
+- Perform arithmetic, logical, and shift operations.
+- Generate status flags.
+- Verify functionality through simulation.
+- Provide a scalable architecture for FPGA implementation.
